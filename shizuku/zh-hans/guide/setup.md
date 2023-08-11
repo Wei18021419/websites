@@ -1,50 +1,50 @@
 # 用户手册
 
-[[toc]]
+[[TOC]]
 
-## 启动 Shizuku
+##启动静谷
 
-Shizuku 支持通过以下三种方式启动。
+静谷支持通过以下三种方式启动。
 
-::: tip 如果您正在使用 GrapheneOS
+：：tip如果您正在使用GrapheneOS
 
-您可能需要关闭 系统设置 - “安全” - “Secure app spawning”。
+您可能需要关闭系统设置-“安全”-“安全应用产卵”。
 
 [来源](https://github.com/RikkaApps/websites/pull/79#issue-1751837442)
 
 :::
 
-### 通过 root 启动
+###通过root启动
 
-如果您的设备已经 root，直接启动即可。
+如果您的设备已经root，直接启动即可。
 
 ### 通过无线调试启动
 
-通过无线调试启动适用于 Android 11 或以上版本。这种启动方式无需连接电脑。由于系统限制，每次重新启动后都需要再次进行启动步骤。
+通过无线调试启动适用于Android11或以上版本.这种启动方式无需连接电脑。由于系统限制，每次重新启动后都需要再次进行启动步骤。
 
 #### 启用无线调试
 
-1. 在网络上搜索如何为您的机型启用“开发者选项”
-2. 启用“开发者选项”和“USB 调试”<br><br><img :src="$withBase('/images/enable_dev_options.png')" style="max-width:320px;width:100%">
-3. 进入“无线调试”<br><br><img :src="$withBase('/images/enter_wireless_debugging.png')" style="max-width:320px;width:100%">
-4. 启用“无线调试”<br><br><img :src="$withBase('/images/enable_wireless_debugging.png')" style="max-width:320px;width:100%">
+1.在网络上搜索如何为您的机型启用“开发者选项”
+2.启用"开发者选项"和"USB调试"<溴><溴><IMG：src="$withbase('/images/enable_dev_options.png')" 风格="最大宽度:320PX;宽度:100%">
+3.进入“无线调试”<溴><溴><IMG：src="$withbase('/images/enter_wireless_debuging.png')" 风格="最大宽度:320PX;宽度:100%">
+4.启用“无线调试”<溴><溴><IMG：src="$withbase('/images/enable_wireless_debuging.png')" 风格="最大宽度:320PX;宽度:100%">
    
-#### 配对（仅需一次）
+####配对（需一次）
 
-1. 在 Shizuku 内开始配对<br><img :src="$withBase('/images/start_paring_from_shizuku.png')" style="max-width:320px;width:100%">
+1.在静谷内开始配对<溴><IMG：src="$withbase('/images/start_paring_from_shizuku.PNG')" 风格="最大宽度:320PX;宽度:100%">
 2. [启用无线调试](#启用无线调试)
-3. 点按“无线调试”中的“使用配对码配对设备”<br><img :src="$withBase('/images/start_pairing.png')" style="max-width:320px;width:100%">
-4. 在 Shizuku 的通知中填入配对码<br><img :src="$withBase('/images/enter_pairing_code.png')" style="max-width:320px;width:100%">
+3.点按“无线调试”中的“使用配对码配对设备”<溴><IMG：src="$withbase('/images/start_pairing.png')" 风格="最大宽度:320PX;宽度:100%">
+4.在静谷的通知中填入配对码<溴><IMG：src="$withbase('/images/enter_pairing_code.png')" 风格="最大宽度:320PX;宽度:100%">
 
-#### 启动 Shizuku
+####启动静谷
 
-<img :src="$withBase('/images/start_shizuku.png')" style="max-width:320px;width:100%">
+<IMG：src="$withbase('/images/start_shizuku.png')" 风格="最大宽度:320PX;宽度:100%">
 
 如果无法启动，尝试禁用并启用无线调试。
 
 ### 通过连接电脑启动
 
-该启动方式适用于未 root 且运行 Android 10 及以下版本的设备。很不幸，该启动方式需要连接电脑。由于系统限制，每次重新启动后都需要再次进行启动步骤。
+该启动方式适用于未root且运行Android10及以下版本的设备。很不幸，该启动方式需要连接电脑。由于系统限制，每次重新启动后都需要再次进行启动步骤。
 
 #### 什么是 `adb`？
 
